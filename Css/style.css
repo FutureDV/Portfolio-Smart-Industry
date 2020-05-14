@@ -130,31 +130,34 @@ footer{
 .Profiel{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    min-height: 80vh;  
+    margin-top: 100px;
+    min-height: 70vh;  
     
     
 }
 .ProfielTekst{
-    width: 60%;
-     
-
-
-
+    width: 55%;
+    
+}
+.ProfielTekst h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--MainBlue);
 }
 .ProfielFotoLijst{
     /* display: flex;
     align-items:center;
     justify-content: center; */
-    width: 40%;
+    width: 45%;
     position: relative;
 }
 .ProfielFoto{
     position: absolute;
-    width: 10vw;
+    width: 20vw;
     height: auto;
     left: 50%;
-    margin-left: -5vw;
+    top: 6%;
+    margin-left: -10vw;
 }
 
 
