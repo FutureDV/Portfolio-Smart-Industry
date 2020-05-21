@@ -1,0 +1,1 @@
+var Getal1 = document.getElementById("Getal1").value;

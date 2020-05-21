@@ -69,7 +69,7 @@ nav ul{
     float:right;
 }
 nav li{
-    display: inline-block; /*bullets verwijderen*/
+    display: inline-block;
     padding-left: 60px;
     font-weight: normal;
     font-size: 1.1em;
@@ -133,7 +133,7 @@ footer{
     margin-left: -10vw;
 }
 
-/* Technology--------------------------------------------------------------------------------------*/
+/* Webpagine inhoud Algemeen--------------------------------------------------------------------------------------*/
 .Competentie{
     background-color: var(--PaperGrey);
     margin: 15px 0px;
@@ -152,32 +152,69 @@ footer{
     background-color: var(--PaperGrey);
     margin: 15px 0px;
     border-radius: 10px;
-    padding-left: 10px;
 }
+
+.tekst{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .week .tekst h2{        /* Week kop tekst */
     text-transform: uppercase;
     font-weight: 400;
     color: var(--MainBlue);
 }
+
 .week .tekst h4{       /* Sub kop tekst */
     font-weight: 400;
     color: var(--MainBlue);
 }
 
 .T-img{
-    width: 400px;
-    height: auto;
+    object-position: top right;
+    width: 450px;
+    /* height: auto; */
     box-shadow: 0px 0px 5px black;
     border-radius: 10px;
     margin-left: 10px;   
 }
 
 
+/* Smart Connection ---------------------------------------------------------*/
 
+.Calculator{
+    object-position: top right;
+    width: 450px;
+    height: 200px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+}
+.Calculator h4{
+    font-weight: 400;
+    color: var(--MainBlue);
+}
 
+#API1{
+    border-bottom: var(--MainGrey) 1px solid;
+    height: 80px;
+    text-align: center;
+    padding-top: 10px;
+}
 
+#API2{
+   
+    height: 200px;    
+}
 
-
+#API1 h4{
+    font-weight: 400;
+    color: var(--MainBlue);
+    text-transform: uppercase;
+}
 
 
 
