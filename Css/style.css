@@ -197,33 +197,33 @@ footer{
     font-weight: 400;
     color: var(--MainBlue);
 }
-#API1{
+.API1{
     border-bottom: var(--MainGrey) 1px solid;
     height: 150px;
     text-align: center;
     padding-top: 10px;
 }
-#API2{
+.API2{
     height: 200px;
     text-align: center;
     padding-top: 10px;
 }
-#API1 h4{
+.API1 h4{
     font-weight: 400;
     color: var(--MainBlue);
     text-transform: uppercase;
 }
-#API1 h3{
+.API1 h3{
     font-weight: 400;
     color: var(--MainBlue);
     text-transform: uppercase;
 }
-#API2 h4{
+.API2 h4{
     font-weight: 400;
     color: var(--MainBlue);
     /* text-transform: uppercase; */
 }
-#API2 h3{
+.API2 h3{
     font-weight: 400;
     color: var(--MainBlue);
     text-transform: uppercase;
@@ -231,6 +231,7 @@ footer{
 .Data h4{
     display: inline;
     clear:none;
+
 }
 
 
