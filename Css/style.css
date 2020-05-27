@@ -200,13 +200,14 @@ footer{
 
 #API1{
     border-bottom: var(--MainGrey) 1px solid;
-    height: 80px;
+    height: 150px;
     text-align: center;
     padding-top: 10px;
 }
 #API2{
-   
-    height: 200px;    
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #API1 h4{
@@ -214,7 +215,25 @@ footer{
     color: var(--MainBlue);
     text-transform: uppercase;
 }
-
+#API1 h3{
+    font-weight: 400;
+    color: var(--MainBlue);
+    text-transform: uppercase;
+}
+#API2 h4{
+    font-weight: 400;
+    color: var(--MainBlue);
+    /* text-transform: uppercase; */
+}
+#API2 h3{
+    font-weight: 400;
+    color: var(--MainBlue);
+    text-transform: uppercase;
+}
+.Data h4{
+    display: inline;
+    clear:none;
+}
 
 
 
